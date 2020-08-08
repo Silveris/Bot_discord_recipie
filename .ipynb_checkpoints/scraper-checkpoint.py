@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import dont_add
 
+
 def scrape_binging():
     # returns a list of dicts for the binging with babish website
     # does not load into db. makes the variable for you to load
@@ -87,3 +88,5 @@ def scrape_binging():
     print('Binging Scraping Complete')
     
     return list_of_recipes
+
+
